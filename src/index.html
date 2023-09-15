@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Movie Website</title>
   </head>
-  <body>
+  <body class="font-open">
     <!--Header section-->
     <header class="bg-black py-12 text-gega-grey font-gemunu uppercase">
       <!--Header container-->
@@ -81,7 +81,7 @@
     </header>
 
     <!-- Hero section-->
-    <section class="h-64 md:h-96 lg:h-128 h-128 group relative">
+    <section class="h-96 md:h-96 lg:h-128 h-128 group relative">
       <img
         src="images/batman.jpg"
         alt="main image"
@@ -157,11 +157,13 @@
     <!--Movie section -->
     <section class="py-24 bg-black">
       <!-- Movies content-->
-      <div class="container flex space-x-16">
+      <div
+        class="container flex lg:space-x-16 space-y-8 lg:space-y-0 flex-col lg:flex-row"
+      >
         <!--left content-->
         <div class="basis-2/3">
           <div
-            class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8"
+            class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0"
           >
             <h2 class="text-gega-red tracking-wider"><a href="#">Latest</a></h2>
             <h2 class="text-gega-grey hover:text-gega-red duration-500">
@@ -174,7 +176,9 @@
           <!--Images container-->
           <div class="flex flex-wrap">
             <!--Image 1-->
-            <div class="group relative overflow-hidden basis-1/3">
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4"
+            >
               <img
                 src="./images/mv1.jpg"
                 class="group-hover:scale-110 group-hover:opacity-50 duration-500"
@@ -205,7 +209,9 @@
               </div>
             </div>
             <!--Image2-->
-            <div class="group relative overflow-hidden basis-1/3">
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4"
+            >
               <img
                 src="./images/mv2.jpg"
                 class="group-hover:scale-110 group-hover:opacity-50 duration-500"
@@ -214,7 +220,7 @@
                 <h3
                   class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500"
                 >
-                  Oblivion
+                  Into The Wild
                 </h3>
                 <p
                   class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey"
@@ -237,7 +243,9 @@
             </div>
 
             <!--Image3-->
-            <div class="group relative overflow-hidden basis-1/3">
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4"
+            >
               <img
                 src="./images/mv3.jpg"
                 class="group-hover:scale-110 group-hover:opacity-50 duration-500"
@@ -269,7 +277,9 @@
             </div>
 
             <!--Image4-->
-            <div class="group relative overflow-hidden basis-1/3">
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4"
+            >
               <img
                 src="./images/mv4.jpg"
                 class="group-hover:scale-110 group-hover:opacity-50 duration-500"
@@ -278,7 +288,7 @@
                 <h3
                   class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500"
                 >
-                  Oblivion
+                  Blade Runner 2049
                 </h3>
                 <p
                   class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey"
@@ -301,7 +311,9 @@
             </div>
 
             <!--Image5-->
-            <div class="group relative overflow-hidden basis-1/3">
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4"
+            >
               <img
                 src="./images/mv5.jpg"
                 class="group-hover:scale-110 group-hover:opacity-50 duration-500"
@@ -310,7 +322,7 @@
                 <h3
                   class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500"
                 >
-                  Oblivion
+                  The Forest
                 </h3>
                 <p
                   class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey"
@@ -333,7 +345,9 @@
             </div>
 
             <!--Image6-->
-            <div class="group relative overflow-hidden basis-1/3">
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4"
+            >
               <img
                 src="./images/mv6.jpg"
                 class="group-hover:scale-110 group-hover:opacity-50 duration-500"
@@ -342,7 +356,75 @@
                 <h3
                   class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500"
                 >
-                  Oblivion
+                  Skyfall
+                </h3>
+                <p
+                  class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Necessitatibus, magni.
+                </p>
+                <!--Icons Container-->
+                <div
+                  class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500"
+                >
+                  <a class="hover:text-gega-red" href="#"
+                    ><i class="fa-solid fa-play"></i
+                  ></a>
+                  <a class="hover:text-gega-red" href="#"
+                    ><i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!--Image7-->
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4 hidden md:block lg:hidden"
+            >
+              <img
+                src="./images/mv1.jpg"
+                class="group-hover:scale-110 group-hover:opacity-50 duration-500"
+              />
+              <div class="absolute px-6 bottom-8">
+                <h3
+                  class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500"
+                >
+                  The Forest
+                </h3>
+                <p
+                  class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Necessitatibus, magni.
+                </p>
+                <!--Icons Container-->
+                <div
+                  class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500"
+                >
+                  <a class="hover:text-gega-red" href="#"
+                    ><i class="fa-solid fa-play"></i
+                  ></a>
+                  <a class="hover:text-gega-red" href="#"
+                    ><i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!--Image8-->
+            <div
+              class="group relative overflow-hidden lg:basis-1/3 md:basis-1/4 hidden md:block lg:hidden"
+            >
+              <img
+                src="./images/mv2.jpg"
+                class="group-hover:scale-110 group-hover:opacity-50 duration-500"
+              />
+              <div class="absolute px-6 bottom-8">
+                <h3
+                  class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500"
+                >
+                  Skyfall
                 </h3>
                 <p
                   class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey"
@@ -366,12 +448,14 @@
           </div>
         </div>
         <!--right content-->
-        <div class="basis-1/3">
+        <div class="basis-1/3 pl-10 lg:pl-0">
           <h2 class="text-gega-grey mb-8">Hot News</h2>
           <!--News Container-->
-          <div class="flex flex-col h-full pb-16 justify-between space-y-4">
+          <div
+            class="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4"
+          >
             <!--Item-->
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!--News Image Container-->
               <div class="basis-1/3 h-full">
                 <img
@@ -389,7 +473,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!--News Image Container-->
               <div class="basis-1/3 h-full">
                 <img
@@ -407,7 +491,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!--News Image Container-->
               <div class="basis-1/3 h-full">
                 <img
@@ -425,7 +509,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!--News Image Container-->
               <div class="basis-1/3 h-full">
                 <img
@@ -443,7 +527,9 @@
                 </p>
               </div>
             </div>
-            <div class="flex items-center group">
+            <div
+              class="flex items-center group basis-3/4 md:hidden lg:flex md:basis-1/2"
+            >
               <!--News Image Container-->
               <div class="basis-1/3 h-full">
                 <img
